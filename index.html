@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of a Computer Science student.">
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="loader" id="loader">
+    <div>LOADING<span>.</span><span>.</span><span>.</span></div>
+</div>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+
+<header class="navbar">
+    <a href="#home" class="logo">YN<span>.</span></a>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="theme-toggle" id="themeToggle" type="button">
+        <span id="themeIcon">☼</span> THEME
+    </button>
+</header>
+
+<main>
+    <section id="home" class="hero">
+        <div class="hero-grid"></div>
+
+        <div class="hero-content">
+            <div class="hero-label reveal">
+                <span class="status"></span>
+                COMPUTER SCIENCE STUDENT
+            </div>
+
+            <h1 class="hero-title">
+                <span class="reveal">I BUILD.</span>
+                <span class="reveal delay-1">I LEARN.</span>
+                <span class="outline reveal delay-2">I EXPERIMENT.</span>
+            </h1>
+
+            <div class="hero-bottom">
+                <p class="hero-description reveal delay-3">
+                    Exploring programming, software development,
+                    artificial intelligence and machine learning
+                    through practical projects.
+                </p>
+
+                <a href="#work" class="scroll-button reveal delay-3">
+                    EXPLORE MY WORK <span>↓</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-number">01 / 05</div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="section-header reveal">
+            <span>01</span>
+            <h2>ABOUT</h2>
+            <i></i>
+        </div>
+
+        <div class="about-grid">
+            <div class="about-heading reveal">
+                <h3>Curious by nature.<br><em>Learning by building.</em></h3>
+            </div>
+
+            <div class="about-content reveal delay-1">
+                <p>I am a second-year Computer Science student interested in programming, software development and emerging technologies.</p>
+                <p>I enjoy turning ideas into practical projects and learning how things work by building them.</p>
+                <p>Currently exploring Data Structures & Algorithms, Web Development, Machine Learning and Artificial Intelligence.</p>
+
+                <div class="about-facts">
+                    <div><span>01</span><strong>Student</strong></div>
+                    <div><span>02</span><strong>Problem Solver</strong></div>
+                    <div><span>03</span><strong>Project Builder</strong></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="section work-section">
+        <div class="section-header reveal">
+            <span>02</span>
+            <h2>SELECTED WORK</h2>
+            <i></i>
+        </div>
+
+        <div class="projects">
+            <article class="project reveal">
+                <div class="project-number">01</div>
+                <div class="project-main">
+                    <div class="project-info">
+                        <small>MACHINE LEARNING</small>
+                        <h3>Stock S-Curve<br>Prediction</h3>
+                        <p>Machine learning project using historical stock data and an LSTM model to study stock price patterns.</p>
+                        <div class="tags"><span>PYTHON</span><span>LSTM</span><span>TENSORFLOW</span><span>PANDAS</span></div>
+                    </div>
+                    <div class="project-visual stock-visual"><div class="chart-line"></div><label>LSTM / DATA</label></div>
+                </div>
+                <a class="project-arrow" href="#" aria-label="Project link">↗</a>
+            </article>
+
+            <article class="project reveal">
+                <div class="project-number">02</div>
+                <div class="project-main">
+                    <div class="project-info">
+                        <small>PYTHON / FINANCE</small>
+                        <h3>Stock<br>Valuation</h3>
+                        <p>Python project exploring stock valuation using financial information and intrinsic-value approaches.</p>
+                        <div class="tags"><span>PYTHON</span><span>PANDAS</span><span>FINANCE</span></div>
+                    </div>
+                    <div class="project-visual valuation-visual"><div class="valuation-circle">₹</div><label>VALUATION</label></div>
+                </div>
+                <a class="project-arrow" href="#" aria-label="Project link">↗</a>
+            </article>
+
+            <article class="project reveal">
+                <div class="project-number">03</div>
+                <div class="project-main">
+                    <div class="project-info">
+                        <small>COMPUTER VISION</small>
+                        <h3>AI Pothole<br>Detection</h3>
+                        <p>AI-based project for detecting potholes from road videos and assisting with reporting information.</p>
+                        <div class="tags"><span>PYTHON</span><span>AI</span><span>VISION</span></div>
+                    </div>
+                    <div class="project-visual pothole-visual"><div class="scan-box">DETECT</div><label>COMPUTER VISION</label></div>
+                </div>
+                <a class="project-arrow" href="#" aria-label="Project link">↗</a>
+            </article>
+
+            <article class="project reveal">
+                <div class="project-number">04</div>
+                <div class="project-main">
+                    <div class="project-info">
+                        <small>AI / COMPUTER VISION</small>
+                        <h3>Product<br>Compliance AI</h3>
+                        <p>Project concept for analyzing packaged product images and checking important label information.</p>
+                        <div class="tags"><span>PYTHON</span><span>AI</span><span>OCR</span></div>
+                    </div>
+                    <div class="project-visual compliance-visual"><div class="document-icon">✓</div><label>ANALYSIS</label></div>
+                </div>
+                <a class="project-arrow" href="#" aria-label="Project link">↗</a>
+            </article>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="section-header reveal">
+            <span>03</span>
+            <h2>SKILLS</h2>
+            <i></i>
+        </div>
+
+        <div class="skills-intro reveal">
+            <h3>Technologies I'm<br><em>learning & using.</em></h3>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill reveal"><span>01</span><h4>PROGRAMMING</h4><p>C · Python · Java · SQL</p></div>
+            <div class="skill reveal"><span>02</span><h4>WEB</h4><p>HTML · CSS · JavaScript · Bootstrap</p></div>
+            <div class="skill reveal"><span>03</span><h4>AI / ML</h4><p>NumPy · Pandas · Scikit-learn · TensorFlow</p></div>
+            <div class="skill reveal"><span>04</span><h4>TOOLS</h4><p>Git · GitHub · VS Code · Google Colab</p></div>
+        </div>
+    </section>
+
+    <section id="education" class="section education-section">
+        <div class="section-header reveal">
+            <span>04</span>
+            <h2>EDUCATION</h2>
+            <i></i>
+        </div>
+
+        <div class="education-item reveal">
+            <div class="education-date">20XX — PRESENT</div>
+            <div>
+                <h3>Bachelor of Technology</h3>
+                <p class="education-course">Computer Science & Engineering</p>
+                <p class="education-college">Your College / University</p>
+                <span class="education-status">CURRENTLY IN 2ND YEAR</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-content">
+            <p class="contact-label reveal">05 / CONTACT</p>
+            <h2 class="reveal delay-1">LET'S BUILD<br><span>SOMETHING.</span></h2>
+            <p class="contact-description reveal delay-2">Have an idea, project or opportunity? I'd be happy to connect.</p>
+            <a href="mailto:your.email@example.com" class="contact-button reveal delay-3">
+                GET IN TOUCH <span>↗</span>
+            </a>
+            <div class="contact-links reveal delay-3">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="mailto:your.email@example.com">Email</a>
+            </div>
+        </div>
+        <footer>© <span id="year"></span> YOUR NAME</footer>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
